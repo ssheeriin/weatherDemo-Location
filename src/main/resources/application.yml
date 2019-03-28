@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: "weather-location"
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+server:
+  port: 8082
